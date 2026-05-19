@@ -1,0 +1,98 @@
+{
+  "journal": {
+    "nomJournal": "JDM 80's News",
+    "logo": "assets/images/logo.svg",
+    "phraseAccroche": "Votre source d'informations sur les voitures japonaises des années 80",
+    "texteAppelAction": "Abonnez-vous pour recevoir notre newsletter et rester informé sur les dernières actualités et tendances des voitures japonaises des années 80 !",
+   
+    "articlePrincipal": {
+      "titre": "Rétrospective : les icônes automobiles des années 80 au Japon",
+      "description": "Explorez les modèles emblématiques, les innovations technologiques et les événements marquants qui ont marqué l'ère automobile japonaise des années 80.",
+      "date": "25 Avril 2024",
+      "theme": "Actualités JDM 80's",
+      "image": "assets/images/image3.jpg"
+    },
+
+    "articles": [
+      {
+        "titre": "Guide d'achat : les meilleures voitures japonaises des années 80 à collectionner aujourd'hui",
+        "date": "20 Avril 2024",
+        "theme": "Collection",
+        "image": "assets/images/image2.png",
+        "popularite": 11
+      },
+      {
+        "titre": "Entretien avec un passionné : restauration d'une voiture japonaise classique des années 80",
+        "date": "15 Avril 2024",
+        "theme": "Restauration",
+        "image": "assets/images/image3.jpg",
+        "popularite": 60
+      },
+      {
+        "titre": "Top 10 des modèles les plus emblématiques des années 80 au Japon",
+        "date": "5 Avril 2024",
+        "theme": "Top 10",
+        "image": "assets/images/image4.jpg",
+        "popularite": 11
+      },
+      {
+        "titre": "Les tendances de la customisation des voitures japonaises des années 80 aujourd'hui",
+        "date": "28 Mars 2024",
+        "theme": "Customisation",
+        "image": "assets/images/image2.png",
+        "popularite": 65
+      },
+      {
+        "titre": "Les événements et rassemblements JDM des années 80 à ne pas manquer cette année",
+        "date": "20 Mars 2024",
+        "theme": "Événements",
+        "image": "assets/images/image3.jpg",
+        "popularite": 29
+      }
+    ],
+
+    "themes": [
+      {
+        "nom": "Collection",
+        "description": "Conseils d'achat, analyses de marché et informations sur les modèles les plus recherchés pour les collectionneurs de voitures japonaises des années 80."
+      },
+      {
+        "nom": "Restauration",
+        "description": "Guides pratiques, astuces et témoignages sur la restauration et la préservation des voitures japonaises classiques des années 80."
+      },
+      {
+        "nom": "Top 10",
+        "description": "Listes des modèles les plus emblématiques, populaires et influents des années 80 au Japon, avec des analyses détaillées de chaque véhicule."
+      },
+      {
+        "nom": "Customisation",
+        "description": "Tendances, techniques et inspirations pour la customisation et la modification des voitures japonaises des années 80 dans la scène JDM moderne."
+      },
+      {
+        "nom": "Événements",
+        "description": "Annonces et couverture des événements JDM, des rassemblements et des expositions dédiés aux voitures japonaises des années 80."
+      }
+    ],
+
+    "auteurs": [
+      {
+        "prenom": "Takashi",
+        "typeExperience": "Collectionneur JDM",
+        "presentation": "En tant que collectionneur passionné de voitures japonaises des années 80, je partage mes connaissances et mes expériences pour aider les amateurs à découvrir et à apprécier ces véhicules classiques.",
+        "photo": "assets/images/image2.png"
+      },
+      {
+        "prenom": "Yuka",
+        "typeExperience": "Restauratrice JDM",
+        "presentation": "Avec une expérience dans la restauration de voitures classiques japonaises, je vous offre des conseils pratiques et des guides étape par étape pour restaurer vos véhicules préférés des années 80.",
+        "photo": "assets/images/image3.jpg"
+      },
+      {
+        "prenom": "Kenji",
+        "typeExperience": "Passionné JDM",
+        "presentation": "En tant que passionné de la scène JDM, je vous propose des analyses approfondies, des critiques et des reportages sur les voitures japonaises des années 80 et leur impact sur la culture automobile.",
+        "photo": "assets/images/image4.jpg"
+      }
+    ]
+  }
+}
