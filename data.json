@@ -1,52 +1,52 @@
 {
   "journal": {
-    "nomJournal": "JDM 80's News",
+    "nomJournal": "JDM Legend",
     "logo": "assets/images/logo.svg",
-    "phraseAccroche": "Votre source d'informations sur les voitures japonaises des années 80",
+    "phraseAccroche": "Plongez dans l'âge d'or de l'automobile japonaise : légendes, passion et culture JDM",
     "texteAppelAction": "Abonnez-vous pour recevoir notre newsletter et rester informé sur les dernières actualités et tendances des voitures japonaises des années 80 !",
    
     "articlePrincipal": {
       "titre": "Rétrospective : les icônes automobiles des années 80 au Japon",
       "description": "Explorez les modèles emblématiques, les innovations technologiques et les événements marquants qui ont marqué l'ère automobile japonaise des années 80.",
-      "date": "25 Avril 2024",
+      "date": "25 Avril 2026",
       "theme": "Actualités JDM 80's",
-      "image": "assets/images/image3.jpg"
+      "image": "assets/images/enq-1998-5ocEwIL3LNY-unsplash.jpg"
     },
 
     "articles": [
       {
-        "titre": "Guide d'achat : les meilleures voitures japonaises des années 80 à collectionner aujourd'hui",
-        "date": "20 Avril 2024",
+        "titre": "Toyota AE86 : la légende du drift qui fait flamber les prix",
+        "date": "20 Avril 2025",
         "theme": "Collection",
-        "image": "assets/images/image2.png",
+        "image": "assets/images/vitali-adutskevich-Y8YuOCYnpRY-unsplash.jpg",
         "popularite": 11
       },
       {
-        "titre": "Entretien avec un passionné : restauration d'une voiture japonaise classique des années 80",
-        "date": "15 Avril 2024",
+        "titre": "Nissan Skyline R32 : comment restaurer le 'Godzilla' d'origine",
+        "date": "15 Avril 2025",
         "theme": "Restauration",
-        "image": "assets/images/image3.jpg",
+        "image": "assets/images/Nissan_Skyline_R32_GT-R_002.jpg",
         "popularite": 60
       },
       {
-        "titre": "Top 10 des modèles les plus emblématiques des années 80 au Japon",
-        "date": "5 Avril 2024",
+        "titre": "Top 10 des moteurs japonais les plus fiables des années 80",
+        "date": "5 Avril 2025",
         "theme": "Top 10",
-        "image": "assets/images/image4.jpg",
+        "image": "assets/images/lewis-liu-YuTNjVQiUGs-unsplash.jpg",
         "popularite": 11
       },
       {
-        "titre": "Les tendances de la customisation des voitures japonaises des années 80 aujourd'hui",
-        "date": "28 Mars 2024",
+        "titre": "Style 'Bosozoku' : l'art extravagant de la customisation japonaise",
+        "date": "28 Mars 2025",
         "theme": "Customisation",
-        "image": "assets/images/image2.png",
+        "image": "assets/images/this-bosozoku-video-made-us-look-at-10-of-the-best-looking-jdm-cars-of-all-time1400-1515771447.jpg",
         "popularite": 65
       },
       {
         "titre": "Les événements et rassemblements JDM des années 80 à ne pas manquer cette année",
-        "date": "20 Mars 2024",
+        "date": "20 Mars 2025",
         "theme": "Événements",
-        "image": "assets/images/image3.jpg",
+        "image": "assets/images/andrew-akabane-PlNP5f4UoDA-unsplash.jpg",
         "popularite": 29
       }
     ],
@@ -54,23 +54,23 @@
     "themes": [
       {
         "nom": "Collection",
-        "description": "Conseils d'achat, analyses de marché et informations sur les modèles les plus recherchés pour les collectionneurs de voitures japonaises des années 80."
+        "description": "Conseils d'achat et modèles mythiques pour les collectionneurs passionnés."
       },
       {
         "nom": "Restauration",
-        "description": "Guides pratiques, astuces et témoignages sur la restauration et la préservation des voitures japonaises classiques des années 80."
+        "description": "Techniques et astuces pour redonner vie aux classiques japonaises."
       },
       {
         "nom": "Top 10",
-        "description": "Listes des modèles les plus emblématiques, populaires et influents des années 80 au Japon, avec des analyses détaillées de chaque véhicule."
+        "description": "Classements des voitures et moteurs les plus emblématiques des années 80."
       },
       {
         "nom": "Customisation",
-        "description": "Tendances, techniques et inspirations pour la customisation et la modification des voitures japonaises des années 80 dans la scène JDM moderne."
+        "description": "Tuning JDM, style kaido racer et modifications tendance."
       },
       {
         "nom": "Événements",
-        "description": "Annonces et couverture des événements JDM, des rassemblements et des expositions dédiés aux voitures japonaises des années 80."
+        "description": "Rassemblements, expositions et rencontres autour des JDM."
       }
     ],
 

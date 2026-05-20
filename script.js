@@ -21,9 +21,9 @@ function getData() {
       const heroPrincipal = document.querySelector('#article-principal')
       
 
-      const sectionArticles = document.querySelector('.articles-section')
-      const sectionThemes = document.querySelector('.themes-section')
-      const sectionAuteurs = document.querySelector('.authors-section')
+      const sectionArticles = document.querySelector('.articles-grid')
+      const sectionThemes = document.querySelector('.themes-list')
+      const sectionAuteurs = document.querySelector('.authors-list')
 
       
 
@@ -47,8 +47,9 @@ function getData() {
 
       // TODO 3: REMPLIR L'ARTICLE PRINCIPAL
 
-       let articlePrincipal = `<div class= "article-principal">
+       let articlePrincipal = `
                                     <img id="hero-image" src="${data.journal.articlePrincipal.image}">
+                                  <div class="hero-info">
                                     <div id="hero-titre">
                                         <h1>${data.journal.articlePrincipal.titre}</h1>
                                     </div>
@@ -61,7 +62,8 @@ function getData() {
                                     <div class="date">
                                       <p>${data.journal.articlePrincipal.date }</p>
                                     </div>
-                              </div>`;
+                                  </div>
+                              `;
 
       
          heroPrincipal.innerHTML = articlePrincipal;
@@ -78,28 +80,91 @@ function getData() {
       let date= article.date;
 
       let carte = `<div class="article-card">
-                      <img src="${image}" alt="">
-                      <span class = "theme-badge">
-                        ${badge}
-                      </span>
-                          <div class="content">
-                            <h3>${titre}</h3>
-                            <p>${date}</p>
-                          </div>
+                        <img src="${image}" alt="">
+                          <div class="article-content">
+                            <span class = "theme-badge">
+                              ${badge}
+                            </span>  
+                                  <h3>${titre}</h3>
+                                  <p>${date}</p>
+                              <div class="article-author">
+                              </div>
+                            </div>
                     </div>`;
 
       sectionArticles.insertAdjacentHTML("beforeend", carte);
     }
 
+    data.journal.articles.forEach(article => {
+      createCard(article)
+      
+    });
+
+    console.log(data.journal.themes);
+    
    
       // TODO 5: REMPLIR LES THEMES
 
+      function themesCard(theme){
+        let themeNom = theme.nom;
+        let themeInfo = theme.description;
+        
+        let carte =  `<div class="theme-item">
+                          <div class="theme-icon">
+                          </div>
+                          <h3>${themeNom}</h3>
+                          <p>${themeInfo}</p>    
+                        </div>`;
+
+          sectionThemes.insertAdjacentHTML("beforeend", carte);
+          
+      }
+
+      data.journal.themes.forEach(theme =>{
+            themesCard(theme);
+          });
+        
+
       // TODO 6: REMPLIR LES AUTEURS
+
+      function AuthorCard(auteur){
+          let auteurPhoto = auteur.photo;
+          let prenomAuteur = auteur.prenom;
+          let auteurExp = auteur.typeExperience;
+          let auteurPresentation = auteur.presentation;
+
+          let carte = `<div class="author-card">
+                          <img class="author-image" src="${auteurPhoto}">
+                          <h3>${prenomAuteur}</h3>
+                            <div class="author-role">
+                              <p>${auteurExp}</p>
+                            </div>
+                            <div class="author-bio">
+                              <p>${auteurPresentation}</p>
+                            </div>
+                        </div>`;
+
+          sectionAuteurs.insertAdjacentHTML("beforeend", carte);
+                      
+}
+
+    data.journal.auteurs.forEach(auteur => {
+      AuthorCard(auteur);
+    });
 
       // TODO 7: REMPLIR LE CALL TO ACTION
 
-      /// FIN DU CODE
+      const callToAction = document.querySelector('#call-to-action');
+        callToAction.innerHTML = `<p>${data.journal.texteAppelAction}</p>
+                                      <button class="cta-button">S'abonner</button>`;
 
+      const ctaButton = document.querySelector('.cta-button');
+      ctaButton.addEventListener('click', function() {
+          alert('Merci pour votre abonnement ! ');
+      });
+
+      /// FIN DU CODE
+      
       // BONUS 1 : Alert sur le bouton CTA
 
       // BONUS 2 : Filtrage par thème
@@ -112,28 +177,3 @@ function getData() {
 getData();
 
 
-// let Heroimg = data.articlePrincipal.image
-//     let HeroTitre = data.articlePrincipal.titre
- //     let HeroDescription = data.articlePrincipal.description 
-   //   let Herodate = data.articlePrincipal.date 
-     // let Herotheme = data.articlePrincipal.theme  
-
-
-         let articlePrincipal = `<div class= "article-principal">
-                                    <img id="hero-image" src="${data.articlePrincipal.image}">
-                                    <div id="hero-titre">
-                                        <h1>${data.articlePrincipal.titre}</h1>
-                                    </div>
-                                      <div class="theme-badge">
-                                        ${data.articlePrincipal.theme}
-                                      </div>
-                                    <div id="hero-description">
-                                        <p>${data.articlePrincipal.description}</p>
-                                    </div>
-                                    <div class="date">
-                                      <p>${data.articlePrincipal.date }</p>
-                                    </div>
-                              </div>`;
-
-      
-         heroPrincipal.innerHTML = articlePrincipal;
